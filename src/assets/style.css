@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.App {
+  padding: 1rem 5rem;
+  height: 100vh;
+  text-align: center;
+}
+.board {
+  margin: 0 auto;
+  width: 550px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  row-gap: 0;
+}
+.block {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.white {
+  background-color: white;
+}
+.black {
+  background-color: black;
+}
+.highlighted {
+  background-color: red;
+}
